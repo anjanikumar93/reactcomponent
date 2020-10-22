@@ -4,7 +4,7 @@ const Effecthook = () => {
   const [number, setNumber] = useState(0);
 
   useEffect(() => {
-    alert("I am effecthook");
+    // alert("I am effecthook");
     console.log("hello useEffect");
   });
 

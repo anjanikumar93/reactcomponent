@@ -1,4 +1,5 @@
 import React from "react";
+
 import Heading from "./component/Heading";
 import "./App.css";
 import Paragraph from "./component/Paragraph";
@@ -30,6 +31,8 @@ import Increment from "./increment/Increment";
 import Component from "./context/Component";
 import Usecontext from "./usecontext/Usecontext";
 import Effecthook from "./effecthook/Effecthook";
+import Selector from "./selector/Selector";
+import Maintab from "./navbar/Maintab";
 
 const currentDate = new Date().toLocaleDateString();
 const currentTime = new Date().toLocaleTimeString();
@@ -40,6 +43,7 @@ const img3 = "https://picsum.photos/200/300/?blur";
 function App() {
   return (
     <div className="app">
+      <Maintab />
       <div className="datetime">
         <h2>I am Anjani Kumar</h2>
         <p>current Date is {currentDate}</p>
@@ -93,6 +97,8 @@ function App() {
       <Usecontext />
       <br />
       <Effecthook />
+      <br />
+      <Selector />
     </div>
   );
 }

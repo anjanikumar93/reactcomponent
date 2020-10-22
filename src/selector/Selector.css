@@ -1,0 +1,15 @@
+.select_data {
+  width: 100%;
+  height: 60vh;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selector_size {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}
